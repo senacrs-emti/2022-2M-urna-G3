@@ -1,0 +1,47 @@
+.col{
+    background-color: #010203;
+    height: 100px;
+    width: 500px;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+}
+.corrige{
+    background-color: red;
+    height: 100px;
+    width: 200px;
+    padding-top: 15px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+}
+.confirma{
+    background-color: green; height: 100px;
+    width: 200px;
+    padding-top: 15px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+}
+body{
+    height: 1000px;
+    width: 100%;
+}
+.row{
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.container{
+    width: 100%;
+}
+h1{
+    background-color: lightgray;
+    width: 500px;
+    height: 60px;
+    padding-bottom: 15px;
+    text-align: center;
+    
+}
