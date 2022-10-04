@@ -1,3 +1,18 @@
-#login{
-     background:aqua;
+.col{
+     display: inline-grid;
+     padding-left: 15px;
+     height: 100%;
+}
+.row{
+     column-gap: 15px;
+     padding-top: 15px;
+     height: 20%;
+     width: 50%;
+     row-gap: 15px;
+}
+body{
+     height: 1000px;
+}
+.container{
+     height: 100%;
 }

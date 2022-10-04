@@ -10,52 +10,50 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="text">
-    <h1>...</h1>
-</div>
 <div class="container">
   <div class="row">
     <div class="col">
-      1 
+    <button type="button" class="btn btn-dark">1</button>
     </div>
     <div class="col">
-      2
+    <button type="button" class="btn btn-dark">2</button>
     </div>
     <div class="col">
-      3 
+    <button type="button" class="btn btn-dark">3</button>
     </div>
   </div>
   <div class="row">
     <div class="col">
-      4
+    <button type="button" class="btn btn-dark">4</button>
     </div>
     <div class="col">
-      5
+    <button type="button" class="btn btn-dark">5</button>
     </div>
     <div class="col">
-      6
+    <button type="button" class="btn btn-dark">6</button>
     </div>
 </div>
     <div class="row">
     <div class="col">
-      7
+    <button type="button" class="btn btn-dark">7</button>
     </div>
     <div class="col">
-      8
+    <button type="button" class="btn btn-dark">8</button>
     </div>
     <div class="col">
-      9
+    <button type="button" class="btn btn-dark">9</button>
     </div>
 </div>
     <div class="row">
     <div class="corrige">
-        corrige
+    <button type="button" class="btn btn-danger">corrige</button>
     </div>
     <div class="col">
-      0
+    <button type="button" class="btn btn-dark">0</button>
     </div>
     <div class="confirma">
-      confirma
+    <button type="button" class="btn btn-success">confirma</button>
+
     </div>
     
   </div>
