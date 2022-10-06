@@ -26,11 +26,16 @@
 
       function drawStuff() {
        var data = new google.visualization.arrayToDataTable([
-          ['Candidato para Presidência', 'Porcentagem de Votos'],
+          /*['Candidato para Presidência', 'Porcentagem de Votos'],
           ["M&M Vermelho", 52],
           ["Shrek", 31],
           ["Rei Gelado", 16],
-          ["Mike Wazowski", 1],
+          ["Mike Wazowski", 1],*/
+          ['Element', 'Density', { role: 'style' }, { role: 'annotation' } ],
+         ['Copper', 15.94, '#b87333', 'Cu' ],
+         ['Silver', 10.49, 'silver', 'Ag' ],
+         ['Gold', 19.30, 'gold', 'Au' ],
+         ['Platinum', 21.45, 'color: #e5e4e2', 'Pt' ]
         ]);
 
         var options = {
@@ -47,6 +52,7 @@
           },
           bar: { groupWidth: "90%" }
         };
+
 
         var chart = new google.charts.Bar(document.getElementById('top_x_div'));
         chart.draw(data, options);
