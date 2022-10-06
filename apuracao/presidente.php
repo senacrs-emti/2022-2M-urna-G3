@@ -11,12 +11,27 @@
     </script>
   </head>
 
-<body>
- 
-
-  <div class="titulo"> 
+<header>
+<div class="titulo"> 
   <h1>Apuração de Votos</h1>
-  </div> 
+  </div>
+  <div class="flex">
+
+  <?php 
+  include 'dados.php';
+  foreach($estadosBrasileiros as $estado => $nome){
+    echo '<div class="estado">' . $estado . '</div>';
+  }
+  ?> 
+  </div>
+</header>
+
+<body>
+
+    <div class=vermelho>
+    <img src="https://casa.abril.com.br/wp-content/uploads/2022/02/MMs-ganham-novos-designs-e-novas-personalidades-vermelho.jpeg?quality=95&strip=info" alt="m&m vermelho" height=90px width=auto>
+    </div>
+      
 
 <div class="grafico">
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
@@ -25,11 +40,11 @@
     google.charts.setOnLoadCallback(drawChart);
     function drawChart() {
       var data = google.visualization.arrayToDataTable([
-        ["Candidato para Presidência", "Porcentagem", { role: "style" } ],
-        ["M&M Vermelho", 52, "#DC3912"],
-        ["Shrek", 31, "#66AA00"],
-        ["Rei Gelado", 16, "#0099C6"],
-        ["Mike Wazowski", 1, "#FF9900"]
+        ["Candidato para Presidência", "Porcentagem", { role: "style" }, { role: 'annotation' } ],
+        ["M&M Vermelho", 52, "#DC3912", 'Ag' ],
+        ["Shrek", 31, "#66AA00", 'Ag' ],
+        ["Rei Gelado", 16, "#0099C6", 'Ag' ],
+        ["Mike Wazowski", 1, "#FF9900", 'Ag' ]
       ]);
 
       var view = new google.visualization.DataView(data);
@@ -54,9 +69,6 @@
 <div id="barchart_values" style="width: 900px; height: 300px;"></div>
     </div>
 </div>
-    </div>
-    <div class=vermelho>
-    <img src="https://casa.abril.com.br/wp-content/uploads/2022/02/MMs-ganham-novos-designs-e-novas-personalidades-vermelho.jpeg?quality=95&strip=info" alt="m&m vermelho" height=90px width=auto>
     </div>
   
 </div>

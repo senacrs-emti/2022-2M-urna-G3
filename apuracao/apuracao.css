@@ -4,9 +4,23 @@
 }
 
 .grafico{
-    margin-left: 5%;
+    margin-left: 16%;
+
     
 }
 .vermelho{
     float: left;
+margin-left: 10%;
+margin-top: 50px;
+}
+
+
+.flex{
+    display: flex;
+}
+.estado{
+    border: 1px solid;
+    padding:10px;
+    margin:1px;
+    align-items: center;    
 }
