@@ -1,26 +1,25 @@
 .titulo{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    text-decoration: underline;
+    text-decoration-color: gainsboro;
 }
+
 
 .grafico{
     margin-left: 16%;
-
+    box-shadow: 3px;
     
 }
-.vermelho{
-    float: left;
-margin-left: 10%;
-margin-top: 50px;
-}
-
 
 .flex{
     display: flex;
 }
+
 .estado{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: 1px solid;
-    padding:10px;
-    margin:1px;
+    padding:9px;
+    margin:4px;
     align-items: center;    
 }

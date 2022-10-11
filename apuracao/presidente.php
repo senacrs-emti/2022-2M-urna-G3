@@ -28,10 +28,6 @@
 
 <body>
 
-    <div class=vermelho>
-    <img src="https://casa.abril.com.br/wp-content/uploads/2022/02/MMs-ganham-novos-designs-e-novas-personalidades-vermelho.jpeg?quality=95&strip=info" alt="m&m vermelho" height=90px width=auto>
-    </div>
-      
 
 <div class="grafico">
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
